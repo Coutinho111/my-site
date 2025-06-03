@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meus eBooks em PDF</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 15px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    a.button {
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Meus eBooks em PDF</h1>
+    <ul>
+      <li>
+        <span>eBook sobre TDAH</span>
+        <a class="button" href="pdfs/ebook-tdah.pdf" target="_blank">Visualizar / Baixar</a>
+      </li>
+      <li>
+        <span>Outro eBook Exemplo</span>
+        <a class="button" href="pdfs/outro-ebook.pdf" target="_blank">Visualizar / Baixar</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
